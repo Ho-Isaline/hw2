@@ -24,19 +24,19 @@
 - /var：系統執行時, 內容經常變動的資料或暫存檔(log file), 都會放置在這個目錄裡<br>
 ---
 ### Linux指令
-- cd 變換目錄
-- pwd顯示目前的目錄的所在位置
-- ls顯示目錄下的所有檔案
-- touch建立檔案
-- cp複製
-- cat查看檔案內容
-- vi編輯檔案
-- mkdir建立一個新目錄
-- mkdir -p同時建立多個目錄
-- rmdir刪除一個裡面是空的空目錄
-- rm刪除檔案
-- rm -r強制刪除
-- mv移動，重新命名
+- cd        變換目錄
+- pwd       顯示目前的目錄的所在位置
+- ls        顯示目錄下的所有檔案
+- touch     建立檔案
+- cp        複製
+- cat       查看檔案內容
+- vi        編輯檔案
+- mkdir     建立一個新目錄
+- mkdir -p  同時建立多個目錄
+- rmdir     刪除一個裡面是空的空目錄
+- rm        刪除檔案
+- rm -r     強制刪除
+- mv        移動，重新命名
 
 <table>
     <tr>
@@ -44,12 +44,17 @@
     </tr>
 </table>
 
-This is another regular paragraph
-*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-    viverra nec, fringilla in, laoreet vitae, risus.
-*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-    Suspendisse id sem consectetuer libero luctus adipiscing.
+### 兩種路徑
+*   絕對路徑: 由根目錄 / 寫起<br>
+        cd(移動目錄位置)/下層資料夾/資料
+        
+        ex: cd /test2/hello
+        
+*   相對路徑: 相對於目前工作目錄的路徑
+        cd(移動目錄位置)/上層資料夾/上層(跟目錄)/下層資料夾/資料
+        
+        ex: cd ../../../test2/hello
+        
 <p>This is a normal paragraph:</p>
 
 <pre><code>This is a code block.
