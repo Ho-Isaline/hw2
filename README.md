@@ -1,28 +1,13 @@
-# hw2 LINUX.
-## 
-mermaid
-graph LR
-A[Hard edge] -->B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-> ## This is a header.
+# Linux
 > 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-> 
-> Here's some example code:
-> 
->     return shell_exec("echo $input | $markdown_script");
-<ol>
+> 1.   一種作業系統
+> 2.   類似於unit，但不是unit!!
+> 3.   可移植性<br>
 
-### 1.  Bird
-### 2.  McHale
-### 3.  Parish
+    ex: Ubunto(常用)
+
+> 4.  對比較不耗資源的系統，常用來處理巨量資料
+> 5.  雲端部署時常使用
 ### rarr : 
 This is a regular paragraph.
 
@@ -53,3 +38,6 @@ Here is an example of AppleScript:
     beep
 end tell
 </code></pre>
+
+*文字*
+**文字**
